@@ -3,7 +3,7 @@ public class Main {
 
         Singleton s1 = Singleton.getInstance();
         Singleton s2 = Singleton.getInstance();
-        System.out.println("évaluer l'apression ");
+        System.out.println("évaluer  l'apression ");
         // évaluer expression s1 == s2
     }
 }

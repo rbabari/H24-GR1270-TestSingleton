@@ -1,8 +1,11 @@
 ```mermaid
 classDiagram
-    class BankAccount
-    BankAccount : +String owner
-    BankAccount : +Bigdecimal balance
-    BankAccount : +deposit(amount)
-    BankAccount : +withdrawal(amount)
+direction BT
+class Main {
+  + Main() 
+  + main(String[]) void
+}
+class Singleton {
+   Singleton instance
+}
 ```
